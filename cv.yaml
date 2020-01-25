@@ -1,0 +1,176 @@
+name:
+  first: Nazim
+  last: Coskun
+suffix: MD
+subtitle1: Nuclear Medicine
+subtitle2: Medical Informatics
+phone: +90-000-000-0000
+email: nazim@coskun.co
+pdf: /Nazim-Coskun-CV.pdf
+src: https://nazim.co/cv
+url: "nazim.co"
+social:
+  github: nazimcoskun
+  twitter: nazimcoskun
+  linkedin: nazimcoskun
+  google_scholar: WvaKEbQAAAAJ
+
+# LaTeX formatting.
+style: banking # casual, classic, oldstyle, or banking
+color: grey # blue, orange, green, red, purple, grey and black
+color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
+
+# (tag, section type, title)
+order:
+  # - [about, NONE] 
+  - [education, Education]
+  - [experience, Experience]
+  - [languages, Languages]
+  - [skills, Skills \& Interests]
+  - [projects, Projects]
+  - [honors, Awards \& Certificates]
+  - [affiliations, Affiliations]
+  - [coursework, METU Graduate Coursework]
+  - [all_publications, Publications]
+  # - [selected_publications, Selected Publications]
+  # - [NEWPAGE, NEWPAGE]
+  # - [activities, Activities]
+
+# about: 'Sample text
+#   with a \href{http://sampe.link/}{sample link}
+#   supporting some HTML tags <b>like this</b>'
+
+education:
+  - school: Middle East Technical University
+    location: Ankara, Turkey
+    degree: MSc in Medical Informatics
+    dates: 2020
+    # overallGPA: 4.00/4.00
+    # majorGPA: 4.00/4.00
+  - school: University of Health Sciences
+    location: Ankara, Turkey
+    degree: Nuclear Medicine Residency
+    dates: 2020
+  - school: Hacettepe University, School of Medicine
+    location: Ankara, Turkey
+    degree: MD
+    dates: 2014
+
+experience:
+  - place: Ankara City Hospital
+    location: Ankara, Turkey
+    title: Nuclear Medicine Resident
+    dates: 2019 -- Present
+  - place: Ankara Numune Hospital
+    location: Ankara, Turkey
+    title: Nuclear Medicine Resident
+    dates: 2016 -- 2019
+  - place: Ankara Hospital
+    location: Ankara, Turkey
+    title: Infectious Diseases Resident
+    dates: 2015 -- 2016
+    # area: Sample area
+    # details:
+    #   - Details
+    #     Some {\bf bold text}.
+    #   - Details
+    #     {\bf Foo}, {\bf Bar}.
+    #     \url{http://sample.link}
+
+affiliations:
+  - org:
+    name: Turkish Society of Nuclear Medicine
+  - org:
+    name: European Society of Nuclear Medicine
+  - org:
+    name: Society of Nuclear Medicine and Molecular Imaging
+  - org:
+    name: Canadian Society of Nuclear Medicine
+  - org:
+    name: Medical Informatics Association
+
+# selected_publications:
+#   name: "N. Coskun"
+#   file: selected.bib
+
+all_publications:
+  name: "N. Coskun"
+  categories:
+    - heading: Journal Articles
+      prefix: A
+      file: articles.bib
+    - heading: Oral Presentations
+      prefix: B
+      file: presentations.bib
+    - heading: Posters
+      prefix: C
+      file: posters.bib
+
+coursework:
+  - semester: S-2018
+    name: Programming for informatics
+    instructor: N. Tuncbag
+  - semester: S-2018
+    name: Advanced Neuroimaging with MRI
+    instructor: D. Gokcay
+  - semester: S-2018
+    name: Fundamentals of Medical Imaging
+    instructor: E. Mumcuoglu
+  - semester: F-2018
+    name: Introduction to Medical Informatics
+    instructor: D. Gokcay
+  - semester: F-2018
+    name: Fundamentals of Mathematics for Information Systems
+    instructor: E. Mumcuoglu
+  - semester: S-2019
+    name: Reasoning Under Uncertainty
+    instructor: D. Gokcay
+  - semester: S-2019
+    name: Database Applications for Medical Informatics
+    instructor: D. Gokcay
+  - semester: F-2019
+    name: Object Oriented Programming and Data Structures
+    instructor: A. C. Acar
+  # - semester: F-2019
+  #   name: Research Methods and Ethics
+  #   instructor: A. C. Acar
+
+languages:
+  - language: Turkish
+    level: Native
+  - language: English
+    level: "Full professional proficiency (IETLS: 8/9, YDS: 97/100)"
+
+skills:
+  - title: Clinical
+    details: Molecular Imaging (PET/CT, SPECT/CT), Theranostics, Radiomics
+  - title: Programming
+    details: Python, JavaScript, SQL, PHP, MATLAB, \LaTeX, HTML, CSS
+  - title: Frameworks
+    details: NumPy, Pandas, PyTorch, SciPy, TensorFlow, Vue.js
+
+honors:
+  - title: Merit-based State Scholarship
+    # year: 2007-2013
+  - title: Certificate in Laboratory Animal Science
+    # year: 2017
+    # descr: Lorem ipsum dolor sit amet.
+    # url: http://sample.link
+
+projects:
+  - name: Dosimetry
+    description: Mobile app for nuclear medicine calculations.
+    url: nzm.co/dosimetry
+  - name: Citation Ninja
+    description: Citation generator for articles in PubMed.
+    url: citation.ninja
+  - name: Medictate
+    description: Medical dictation tool.
+    url: medictate.org
+  - name: Kuduz Aşısı
+    description: Mobile app for rabies vaccination planning.
+    url: nzm.co/kuduz-asisi
+
+# activities:
+# - Activity 1
+# - Activity 2

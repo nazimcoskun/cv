@@ -1,0 +1,70 @@
+\documentclass[11pt,a4paper,roman]{moderncv}
+
+\moderncvstyle{<< style >>}
+\moderncvcolor{<< color >>}
+\definecolor{color2}{rgb}{<<color2>>}
+
+% Font adjustments
+\renewcommand*\rmdefault{ppl}
+\renewcommand{\familydefault}{\rmdefault}
+\renewcommand*{\namefont}{\fontsize{16}{18}\textcolor{black}\mdseries\upshape}
+\renewcommand*{\titlefont}{\fontsize{16}{18}\mdseries\upshape}
+
+% Packages
+\usepackage[top=0.5in, bottom=0.4in, left=0.6in, right=0.6in, includefoot]{geometry}
+\usepackage{color}
+\setlength{\hintscolumnwidth}{3cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+% Line spacing?
+\nonfrenchspacing
+
+\usepackage[backend=biber,style=ieee,defernumbers=true]{biblatex}
+%\usepackage[backend=biber,style=ieee]{biblatex}
+
+% Change list bullet style
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% Make the author's name bold in publications.
+\DeclareNameFormat{author}{%
+  \nameparts{#1}%
+  \ifthenelse{\equal{\namepartfamily}{<< name.last >>}}%
+    {\textbf{\ifblank{\namepartgiveni}{}{\namepartgiveni\space}\namepartfamily}}%
+    {\ifblank{\namepartgiveni}{}{\namepartgiveni\space}\namepartfamily}%
+  \ifthenelse{\value{listcount}=1 \AND \value{liststop}=2}%
+    {\space and\space}
+    {\ifthenelse{\value{listcount}<\value{liststop}}%
+      {\addcomma\space}
+      {}
+    }
+}
+
+% Show page number in footer
+\usepackage{lastpage}
+\cfoot{\addressfont\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+
+\AtEndPreamble{\hypersetup{pdftitle={CV -- << name.first >> << name.last >>}}}
+\name{\color{black}<< name.first >>}{\color{black}<< name.last >>}
+\title{<< suffix >>}
+\address{<< subtitle1 >>}{<< subtitle2 >>}
+% \phone{<< phone >>}
+\email{<< email >>}
+\homepage{<< url >>}
+\social[linkedin]{<<social.linkedin>>}
+\social[twitter]{<<social.twitter>>}
+\social[github]{<<social.github>>}
+\extrainfo{\color{gray}Generated on \today}
+% \photo[64pt][0.4pt]{picture}
+% \quote{Generated on \today}
+
+\AtBeginDocument{\hypersetup{colorlinks}}
+
+\begin{document}
+\hypersetup{linkcolor=color0,urlcolor=color1}
+\makecvtitle
+
+\vspace{-1cm}
+
+<< body >>
+
+\end{document}

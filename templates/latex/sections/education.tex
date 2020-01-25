@@ -1,0 +1,18 @@
+~< extends "section.tex" >~
+
+~< block body >~
+~< for school in items >~
+\cvlistitem{
+  ~< if school.degree >~
+    << school.degree >>,
+  ~< endif >~
+  << school.school >>,
+  << school.location >>
+  ~< if school.overallGPA >~
+    (<< school.overallGPA >>)
+  ~< endif >~
+  \hfill
+  << school.dates >>
+}
+~< endfor >~
+~< endblock body >~

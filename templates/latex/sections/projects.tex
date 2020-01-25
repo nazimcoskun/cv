@@ -1,0 +1,9 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\begin{tabular}{p{3cm}p{12cm}}
+  ~< for item in items >~
+    << item.name >> & << item.description >> \href{https://<< item.url >>}{<< item.url >>} \\[1ex]
+  ~< endfor >~
+\end{tabular}
+~< endblock body >~

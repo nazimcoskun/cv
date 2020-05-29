@@ -26,7 +26,7 @@ order:
   - [education, Education]
   - [experience, Experience]
   - [languages, Languages]
-  - [skills, Skills \& Interests]
+  - [interests, Interests]
   - [projects, Projects]
   - [honors, Awards \& Certificates]
   - [affiliations, Affiliations]
@@ -141,7 +141,7 @@ languages:
   - language: English
     level: "Full professional proficiency (IETLS: 8/9, YDS: 97/100)"
 
-skills:
+interests:
   - title: Clinical
     details: Molecular Imaging (PET/CT, SPECT/CT), Theranostics, Radiomics
   - title: Programming

@@ -146,8 +146,6 @@ interests:
     details: Molecular Imaging (PET/CT, SPECT/CT), Theranostics, Radiomics
   - title: Programming
     details: Python, JavaScript, SQL, PHP, MATLAB, \LaTeX, HTML, CSS
-  - title: Frameworks
-    details: NumPy, Pandas, PyTorch, SciPy, TensorFlow, Vue.js
 
 honors:
   - title: Merit-based State Scholarship
